@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+$CC -std=c2x -Wall -Wextra -Wpedantic ./example.c ./src/writer.c -o a.out
+./a.out
+rm a.out
