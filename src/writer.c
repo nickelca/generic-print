@@ -878,6 +878,7 @@ Print_Impl(struct Writer writer, const char *format, ...)
                 break;
             case format_type_float:
                 ret = Write_All(writer, "1.0", 3);
+                break;
             default: unreachable();
         }
 

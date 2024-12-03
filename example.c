@@ -2,7 +2,7 @@
 
 int main(void) {
     int ret;
-    auto const stdout = Get_STD_Out();
+    const auto stdout = Get_STD_Out();
     ret = Print(
         stdout,
         "Hello, {X}. You have {x} dollars and {b} {}\n",
